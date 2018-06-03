@@ -10,8 +10,8 @@ description: The way to play osu! on archlinux.
 
 ## Wine
 -----------------
-关于wine需要搞清楚`WINEPREFIX`这个概念，`WINEPREFIX`相当于一个windows的系统目录，也就是说你安装的所有windows库、运行软件需要的库都在这个文件夹中。
-wine的强大之处在于你可以创建不止一个这样的系统目录，相当于你同时拥有32和64位的系统。64位系统运行wine时默认的是64位windows环境，可以通过`WINARCH`和`WINEPREFIX`这
+关于wine需要搞清楚`WINEPREFIX`这个概念，`WINEPREFIX`相当于一个windows的系统目录，也就是说你安装的所有windows库、运行软件时需要的依赖都在这个文件夹中。
+wine的强大之处在于你可以创建多个这样的系统目录，相当于你同时拥有多个系统。64位系统运行wine时默认的是64位windows环境，可以通过`WINARCH`和`WINEPREFIX`这
 两个变量来指定系统位数和系统目录的位置。比如：
 ```
 WINEARCH=win32 WINEPREFIX=~/win32 winecfg
@@ -40,7 +40,7 @@ WINEARCH=win64 WINEPREFIX=~/win64 wine osu\!install.exe`
 
 安装就到此结束了，其它的windows程序安装过程类似，需要的windows库不同罢了。遗留的问题是我这样安装之后
 osu一直提示我验证帐号，导致无法登录，只能离线打图了，这个问题待解决。  
-update:这个问题解决了，具体参考<https://osu.ppy.sh/forum/t/658601>  
+**update:**这个问题解决了，具体参考<https://osu.ppy.sh/forum/t/658601>  
 ## 尾
 -----------------------
 为了启动方便，可以在.zshrc里加入一些alias。比如:
