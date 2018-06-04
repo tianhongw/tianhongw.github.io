@@ -27,7 +27,7 @@ $accent-color: #3CA2A2;    // original =)
 $font-color: #dddddd;
 $background-color: #292929;
 $post-panel-color: #444;
-$footer-background-color: #292c2f;
+$footer-background-color: #222;
 $note-color: #87CEFA;
 $warning-color: #ffff00;
 // use this or pick any from /css/pics/background folder or from transparenttextures.com
@@ -324,8 +324,9 @@ table.inner-borders {
 .footer-distributed {
   background-color: $footer-background-color;
   font: normal 16px sans-serif;
-  padding: 20px 25px;
-  margin-top: 80px;
+  height: 100px;
+  //padding: 20px 25px;
+  margin-top: 90px;
   text-align: center;
   bottom: 0;
   left: 0;
@@ -359,7 +360,7 @@ table.inner-borders {
   position: relative;
 }
 .content{
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 
 //********************************************************
