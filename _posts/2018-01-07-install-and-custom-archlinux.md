@@ -218,7 +218,7 @@ sudo cp /etc/shadowsocks/config.json /etc/shadowsocks/foo.json
 systemctl start shadowsocks@foo
 systemctl enable shadowsocks@foo
 ```
-Firefox浏览器配合SwitchyOmega插件科学上网。
+Chrome浏览器配合SwitchyOmega插件科学上网。
 ### 4.输入法
 ```
 sudo pacman -S fcitx fcitx-googlepinyin
@@ -243,7 +243,5 @@ sudo pacman -S weechat
 ```
 ## 尾
 ---------------------------
-暂时和windows说再见了，未来一段时间会一直坚持使用Arch、学习Linux。  
-Linux makes life better!I love it!   
 最后附一张简单配置好的ArchLinux:
 ![](/assets/images/install-and-custom-archlinux.png)
