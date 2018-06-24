@@ -241,6 +241,8 @@ sudo pacman -S weechat
 /set irc.server.freenode.command "/msg nickserv identify youpasswd" #自动认证
 /set irc.server.freenode.autojoin "#channel1,#channel2" #自动加入群组
 ```
+### 8.Markdown编辑器
+[Marker](https://github.com/fabiocolacio/Marker)
 ## 尾
 ---------------------------
 最后附一张简单配置好的ArchLinux:
