@@ -10,5 +10,6 @@ title: Notes
 在vim中输入`:messages`查看错误信息，提示:  
 `ImportError: libpython3.6m.so.1.0: cannot open shared object file`  
 创建一个软连接解决了问题:  
-`sudo ln -s /usr/lib/libpython3.7m.so.1.0 /usr/lib/libpython3.6m.so.1.0`
+`sudo ln -s /usr/lib/libpython3.7m.so.1.0 /usr/lib/libpython3.6m.so.1.0`  
+或者更新下YCM插件。
 
