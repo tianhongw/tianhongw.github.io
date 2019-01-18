@@ -2,7 +2,7 @@
 layout: post
 title: ArchLinux折腾小记
 date: 2018-01-07
-tags: 
+tags:
     - Archlinux
 description: 安装archlinux，安装后的美化，以及一些软件的配置。
 ---
@@ -89,11 +89,11 @@ reboot
 useradd -m -g users -G wheel -s /bin/zsh username
 passwd username
 ```
-为了使普通用户使用`sudo`也能执行系统命令，切换到root，执行
+为了使普通用户使用`sudo`也能执行系统命令，并且不需要每次输入密码，切换到root，执行
 ```shell
 visudo
 ```
-取消`%wheel ALL=(ALL) ALL`和`%wheel ALL=(ALL) NOPASSWD: ALL`前面的注释。
+取消`%wheel ALL=(ALL) NOPASSWD: ALL`前面的注释。
 ### 图形界面
 为了使用图形界面，安装一些必要的软件包和驱动。
 ```shell
@@ -198,11 +198,11 @@ sudo pacman -S zsh
 sudo pacman -S shadowsocks
 sudo cp /etc/shadowsocks/config.json /etc/shadowsocks/foo.json
 ```
-编辑foo.json，一般需要修改3处：
+编辑foo.json，需要修改3处：
 ```
 {
-    "server":"my_server_ip",    #服务器ip
-    "server_port":8388,         #shadowsocks服务端口,一般为443
+    "server":"my_server_ip",    #你的服务器ip
+    "server_port":8388,         #你的shadowsocks服务端口
     "local_address": "127.0.0.1",
     "local_port":1080,
     "password":"mypassword",    #密码
