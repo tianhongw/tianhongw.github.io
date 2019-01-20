@@ -107,31 +107,21 @@ sudo pacman -S xfce4 xfce4-goodies
 ```
 ### 终端主题
 根据个人喜好，在[这里](https://github.com/netzverweigerer/xfce4-terminal-colorschemes)可以选择不同终端主题。
-### 安装yaourt
+### 开启AUR
 ```
 sudo vi /etc/pacman.conf
 ```
-添加：
+选择清华源，在末尾添加：
 ```
 [archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server   = http://repo.archlinuxcn.org/$arch
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
-然后：
+之后安装archlinuxcn-keyring包导入GPG key.AUR的包管理可以选择yaourt或者yay。
+如果你想运行一些32位程序，编辑/etc/pacman.conf，取消注释:
 ```
-sudo pacman -Syu yaourt fakeroot
-```
-同时编辑/etc/pacman.conf，取消注释:
-```
-Color
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
-添加：
-```
-ILoveCandy
-```
-通过取消注释`Color`和添加`ILoveCandy`可以美化`pacman`命令。
 ### 美化
 #### 1.字体
 Source Code Pro 是Adobe开发的一款开源字体，非常适合阅读代码。
