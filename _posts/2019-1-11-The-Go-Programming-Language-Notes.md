@@ -3,7 +3,7 @@ layout: post
 title: Go语言圣经读书笔记
 date: 2019-01-11
 tags:
-    - golang
+    - Golang
     - 读书笔记
 description: Go语言圣经读书笔记。
 ---
