@@ -4,7 +4,7 @@ title: Go语言圣经读书笔记
 date: 2019-01-11
 tags:
     - Golang
-    - 读书笔记
+    - ReadingNotes
 description: Go语言圣经读书笔记。
 ---
 # 前言
