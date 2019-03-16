@@ -2,8 +2,8 @@
 layout: post
 title: Install osu! on archlinux
 date: 2018-03-22
-tags: 
-    - Archlinux
+tags:
+    - archlinux
     - osu
 description: The way to play osu! on archlinux.
 ---
@@ -39,8 +39,8 @@ WINEARCH=win64 WINEPREFIX=~/win64 wine osu\!install.exe`
 ```
 
 安装就到此结束了，其它的windows程序安装过程类似，需要的windows库不同罢了。遗留的问题是我这样安装之后
-osu一直提示我验证帐号，导致无法登录，只能离线打图了，这个问题待解决。  
-**update:**这个问题解决了，具体参考<https://osu.ppy.sh/forum/t/658601>  
+osu一直提示我验证帐号，导致无法登录，只能离线打图了，这个问题待解决。
+**update:**这个问题解决了，具体参考<https://osu.ppy.sh/forum/t/658601>
 ## 尾
 -----------------------
 为了启动方便，可以在.zshrc里加入一些alias。比如:

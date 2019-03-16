@@ -1,4 +1,4 @@
 ---
 layout: tag_index
-tag: archlinux
+tag: readingNotes
 ---

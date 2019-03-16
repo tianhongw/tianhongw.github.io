@@ -3,7 +3,7 @@ layout: post
 title: ArchLinux折腾小记
 date: 2018-01-07
 tags:
-    - Archlinux
+    - archlinux
 description: 安装archlinux，安装后的美化，以及一些软件的配置。
 ---
 
