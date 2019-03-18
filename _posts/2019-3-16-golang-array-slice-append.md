@@ -82,7 +82,7 @@ Slice是一种数据结构,它描绘了底层数组一段连续的部分.
     }
 
     // Output:
-    // slice:  [1 2 3] length:  3 cap:  10
+    // slice:  [0 0 0] length:  3 cap:  10
 
 main函数中的slice并没有改变它的 `length` 和 `cap` 属性.
 
