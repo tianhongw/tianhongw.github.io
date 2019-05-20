@@ -29,3 +29,11 @@ title: Notes
 编辑`/etc/fstab` 根据实际情况更改设备名和挂载点:
 
 `/dev/sda1   /home/tianhongw/Hdd ext4    rw,noatime,noauto,x-systemd.automount,users 0 0`
+
+- Archlinux有线连接网络
+
+需要启动两个服务，根据实际情况更改网卡名:
+
+`dhcpcd@eno1.service`
+
+`dhclient@eno1.service`
