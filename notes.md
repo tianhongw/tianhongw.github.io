@@ -37,3 +37,9 @@ title: Notes
 `dhcpcd@eno1.service`
 
 `dhclient@eno1.service`
+
+- 用docker运行jekyll
+
+进入博客网站所在目录，运行:
+
+`docker run --name blog -p 4000:4000 --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll serve`
