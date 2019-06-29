@@ -43,3 +43,7 @@ title: Notes
 进入博客网站所在目录，运行:
 
 `docker run --name blog -p 4000:4000 --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll serve`
+
+### 8.日志命名技巧
+
+`cmd.sh > log_file_name.$(date +\%Y\%m\%d_\%H\%M\%S).log 2>&1`
