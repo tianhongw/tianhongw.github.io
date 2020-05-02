@@ -4,13 +4,13 @@ name:
 description: A blog to write things.
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/Trytwice/Trytwice.github.io
+url: https://github.com/tianhongw/tianhongw.github.io
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl:
 
-author: Kotiya Sanae
+author: TianhongWu
 copyright: 2017-2020. Powered by Vim, Git, Jekyll and jekyll-clean-dark theme.
 
 share:
@@ -22,7 +22,7 @@ share:
   email: true
 
 social:
-  github: Trytwice
+  github: tianhongw
   twitter: WuTianhong
   #stackoverflow: ''
   #linkedin:
