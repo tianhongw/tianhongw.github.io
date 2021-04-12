@@ -47,3 +47,8 @@ title: Notes
 ### 8.日志命名技巧
 
 `cmd.sh > log_file_name.$(date +\%Y\%m\%d_\%H\%M\%S).log 2>&1`
+
+### 9.docker运行mysql/redis
+`docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=123456 -v /path/to/local/:/var/lib/mysql mysql --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci`
+
+`docker run -d -p 6379:6379 -v /path/to/local/:/data --name redis redis redis-server --appendonly yes`
