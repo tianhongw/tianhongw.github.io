@@ -15,7 +15,7 @@ copyright: 2017-2020. Powered by Vim, Git, Jekyll and jekyll-clean-dark theme.
 
 share:
   facebook: false
-  twitter: true
+  twitter: false
   gplus: false
   linkedin: false
   pinterest: false
@@ -23,7 +23,7 @@ share:
 
 social:
   github: tianhongw
-  twitter: WuTianhong
+  twitter: ''
   #stackoverflow: ''
   #linkedin:
   #instagram: ''
